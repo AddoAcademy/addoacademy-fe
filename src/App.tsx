@@ -31,6 +31,7 @@ export function App() {
           <Route path="toolbox" element={<Toolbox />} />
           <Route path="mentorship" element={<Mentor />} />
           <Route path="masterclasses" element={<Masterclasses />} />
+          
           <Route path="video-traning" element={<VideoTraning />} />
         </Route>
       </Routes>
