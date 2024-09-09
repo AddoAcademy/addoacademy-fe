@@ -5,7 +5,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Card, CardContent} from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { Link } from "react-router-dom";
 
 export function MainSlider() {
@@ -31,28 +31,36 @@ export function MainSlider() {
                 </Carousel>
             </div>
             <div className="flex gap-6">
-                <Card className="w-[200px] h-[270px] flex justify-center items-center bg-[#C0E3E6] rounded-[50px] capitalize text-xl cursor-pointer">
-                    <CardContent>
-                      <Link to='video-traning'>Video Traning</Link>
-                    </CardContent>
-                </Card>
-                <Card className="w-[200px] h-[270px] flex justify-center items-center bg-[#C0E3E6] rounded-[50px] capitalize text-xl cursor-pointer">
-                    <CardContent>
-                        <Link to='toolbox'>Tool Box</Link>
-                    </CardContent>
-                </Card>
-                <Card className="w-[200px] h-[270px] flex justify-center items-center bg-[#C0E3E6] rounded-[50px] capitalize text-xl cursor-pointer">
-                    <CardContent>
-                    <Link to='masterclasses'>Masterclasses</Link>
-                    </CardContent>
-                </Card>
-                <Card className="w-[200px] h-[270px] flex justify-center items-center bg-[#C0E3E6] rounded-[50px] capitalize text-xl cursor-pointer">
-                    <CardContent>
-                    <Link to='mentorship'>Mentorship</Link>
-                    </CardContent>
-                </Card>
+                <Link to='video-traning'>
+                    <Card className="w-[200px] h-[270px] flex justify-center items-center bg-[#C0E3E6] rounded-[50px] capitalize text-xl cursor-pointer">
+                        <CardContent>
+                            <span>Video Traning</span>
+                        </CardContent>
+                    </Card>
+                </Link>
+                <Link to='toolbox'>
+                    <Card className="w-[200px] h-[270px] flex justify-center items-center bg-[#C0E3E6] rounded-[50px] capitalize text-xl cursor-pointer">
+                        <CardContent>
+                            Tool Box
+                        </CardContent>
+                    </Card>
+                </Link>
+                <Link to='masterclasses'>
+                    <Card className="w-[200px] h-[270px] flex justify-center items-center bg-[#C0E3E6] rounded-[50px] capitalize text-xl cursor-pointer">
+                        <CardContent>
+                            Masterclasses
+                        </CardContent>
+                    </Card>
+                </Link>
+                <Link to='mentorship'>
+                    <Card className="w-[200px] h-[270px] flex justify-center items-center bg-[#C0E3E6] rounded-[50px] capitalize text-xl cursor-pointer">
+                        <CardContent>
+                            Mentorship
+                        </CardContent>
+                    </Card>
+                </Link>
             </div>
         </div>
-        
+
     )
 }
