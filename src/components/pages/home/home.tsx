@@ -1,6 +1,5 @@
 import { Footer } from "../footer/footer";
 import { Header } from "../header/header";
-import { Ads } from "./main-ads/ads";
 import { MainSlider } from "./main-slider/main-slider";
 import { Trends } from "./trends/trends";
 

@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent} from "@/components/ui/card"
 import { Link } from "react-router-dom";
-import ReactPlayer from "react-player";
 
 export function MainSlider() {
     return (

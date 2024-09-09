@@ -1,4 +1,4 @@
-import { BrowserRouter, Outlet, Route, Routes, ScrollRestoration, useLocation } from "react-router-dom";
+import { BrowserRouter, Outlet, Route, Routes,useLocation } from "react-router-dom";
 import { Home } from "./components/pages/home/home";
 import { LogIn } from "./components/pages/login/login";
 import { SignUp } from "./components/pages/signup/signup";
@@ -31,7 +31,6 @@ export function App() {
           <Route path="toolbox" element={<Toolbox />} />
           <Route path="mentorship" element={<Mentor />} />
           <Route path="masterclasses" element={<Masterclasses />} />
-          
           <Route path="video-traning" element={<VideoTraning />} />
         </Route>
       </Routes>
